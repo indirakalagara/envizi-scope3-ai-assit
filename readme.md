@@ -1,12 +1,13 @@
 
+# Using IBM Envizi's AI Assit NLP Capabilties to classify Scope 3 Purchased Goods & Services data
 
+In this exercise, using AI assist features we will load spend-based data for the Category 1 Purchased goods for our Bank.
 
 ## Scope 3 introdcution
 
 
 Scope 3 emissoions are all indirect emissions which are the result of the activities from assets not owned or controlled by the reporting organization.
 Scope 3 emissions are basically all other indirect emissions that occur in a company’s value chain. For majority of the companies, Scope 3 emissionss have the most significant contribution in their overall GHG emissions.
-
 
 
 ## Scope 3 Categories and Calculation Methods supported in Envizi
@@ -46,7 +47,7 @@ The AI Assist feature of Envizi uses a natural language processing (NLP) engine 
 AI Assist will pre-process the spend-based records and assign a mappting Account style.  The user will review the account styles allocated by AI, and then submit the file for loading directly, or modify the account style allocations manually and re-upload a modified file for loading.
 
 
-# Using AI Assit to classify Scope 3 Purchased Goods & Services data
+## Using AI Assit to classify Scope 3 Purchased Goods & Services data
 
 In this exercise, using AI assist features we will load spend-based data for the Category 1 Purchased goods for our Bank.
 
