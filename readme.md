@@ -1,5 +1,5 @@
 
-# Using IBM Envizi's AI Assit NLP Capabilties to classify Scope 3 Purchased Goods & Services data
+# Using IBM Envizi's AI Assit NLP Capabilties to classify Scope 3 Spend-based transactions
 
 In this exercise, using AI assist features we will load spend-based data for the Category 1 Purchased goods for our Bank.
 
@@ -41,8 +41,7 @@ Using Natural Language Processing featuer of AI can help in identifying the cate
 
 ## Envizi AI  Assist 
 
-The AI Assist feature of Envizi uses a natural language processing (NLP) engine to identify the category based on the spend transaction descriptions that are provided by you in the template, and assigns account styles. 
-
+The AI Assist feature of Envizi uses a natural language processing (NLP) engine to identify the Scope 3 category based on spend transaction descriptions  provided by the user. Envizi provides a template , following which user prepares and upload the spend-based data to AI Assit.
 AI Assist will pre-process the spend-based records and assign a mappting Account style.  The user will review the account styles allocated by AI, and then submit the file for loading directly, or modify the account style allocations manually and re-upload a modified file for loading.
 
 
@@ -214,6 +213,6 @@ This concludes the exercise. Happy Learning !
 
 ## Conclusion
 
-In this lab exercise, we have learnt how Envizi uses Natural Language Processing (NLP) using the AI Assit feature, for categorizing the Spend based data into the appropriate Scope 3 Category 1 Purchased Goods & Services.  We have also looked into steps to follow when AI assist maps the correct account style as well as how to handle when the category mapped is not statisfactorty to the user requirement. 
+In this lab exercise, we have learnt how Envizi uses Natural Language Processing (NLP) using the AI Assit feature, for categorizing the Spend based data into the appropriate Scope 3 Category 1 Purchased Goods & Services.  We have also looked into steps to follow when AI assist maps the correct account style as well as how to handle when the category mapped is not statisfactorty to the user requirement. IBM Envizi's AI Assist feature is still being enhanced and you can look for latest updates from [knowledge base](https://knowledgebase.envizi.com/home/adding-scope-3-spend-based-data-by-using-ai-assist)
 
 
