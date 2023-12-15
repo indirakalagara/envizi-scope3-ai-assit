@@ -5,7 +5,6 @@ In this exercise, using AI assist features we will load spend-based data for the
 
 ## Scope 3 introdcution
 
-
 Scope 3 emissoions are all indirect emissions which are the result of the activities from assets not owned or controlled by the reporting organization.
 Scope 3 emissions are basically all other indirect emissions that occur in a company’s value chain. For majority of the companies, Scope 3 emissionss have the most significant contribution in their overall GHG emissions.
 
@@ -42,19 +41,10 @@ Using Natural Language Processing featuer of AI can help in identifying the cate
 
 ## Envizi AI  Assist 
 
-The AI Assist feature of Envizi uses a natural language processing (NLP) engine to identify the commodity category from spend transaction descriptions that are provided by you in the template, and assigns account styles. 
+The AI Assist feature of Envizi uses a natural language processing (NLP) engine to identify the category based on the spend transaction descriptions that are provided by you in the template, and assigns account styles. 
 
 AI Assist will pre-process the spend-based records and assign a mappting Account style.  The user will review the account styles allocated by AI, and then submit the file for loading directly, or modify the account style allocations manually and re-upload a modified file for loading.
 
-
-## Using AI Assit to classify Scope 3 Purchased Goods & Services data
-
-In this exercise, using AI assist features we will load spend-based data for the Category 1 Purchased goods for our Bank.
-
-This exercise provide the instructions to capture the data by leveraging AI Assit with two different scenarios. 
-
-   - Scenario 1 : Automatically submit the file processed by AI Assist directly 
-   - Scenario 2 : Modify the file processed by AI Assist and submit manually
 
 ## Download the AI Assit template
 
@@ -76,15 +66,24 @@ This exercise provide the instructions to capture the data by leveraging AI Assi
    3. `Supported account styles` - Provides list Account styles supported for Scope 3 - Category 1 Purhased Goods and Services in Envizi through Eora 66 Emission factor library
    4. `Template fields definitions` - Details on field types , mandatory or optinal, etc
 
-
 <img src="images/AI-assist-templates-contents.png">
+
+
+## Using AI Assit to classify Scope 3 Purchased Goods & Services data
+
+In this exercise,  we will learn  how to leverage AI Assit for categorizing the spend-based financial transactional data related to purchased goods and services with two different scenarios. 
+
+   - Scenario 1 : Automatically submit the file processed by AI Assist directly 
+   - Scenario 2 : Modify the file processed by AI Assist and submit manually
 
 
 ## Scenario 1: Automatically submit the file processed by AI Assist directly 
 
-1. Make a copy of the template file 
+This exercise takes you through the steps when the category mapping (Account style) done by AI Assist is satisfactory to the user and hence proceed further to load the data.
 
-2. Prepare the temlate file by filling relavante columns or take the sample file available [here](./files/data/Account%20Setup%20and%20Data%20Load%20-%20AI%20Assist-set1.xlsx)
+1. Make a copy of the template file downloaded in [Section - Download the AI Assit template](#download-the-ai-assit-template) 
+
+2. Prepare the temlate file by filling relavante columns or take the sample file available [here](https://github.com/indirakalagara/envizi-scope3-ai-assit/blob/main/files/data/Account%20Setup%20and%20Data%20Load%20-%20AI%20Assist-set1.xlsx)
 
 3. Verify the values of the mandatory fields
    
@@ -154,9 +153,11 @@ This concludes the Scenario 1 lab using the AI assist feature for deriving the r
 
 ## Scenario 2 : Modify the file processed by AI Assist and submit manually
 
-The following exercise calls out a a scenario where the account style assigned by AI assist is not mapped to correct Scope 3 Category data type. In such cases, users can modify the account style according to their requirement and then upload the files manually. Lets follow the steps to replicate this scenario.
+The following exercise calls out a a scenario where the account style assigned by AI assist is not mapped to correct Scope 3 Category data type. In such cases, users can modify the account style according to their requirement and then upload the files manually. 
 
-1. A sample file provided here - [Account Setup and Data Load - AI Assist-set2.xlsx](./files/data/Account%20Setup%20and%20Data%20Load%20-%20AI%20Assist-set2.xlsx) to replicate the scenario
+To replicate this scenario you can follow the below steps with the sample file given.
+
+1. A sample file provided here - [Account Setup and Data Load - AI Assist-set2.xlsx](https://github.com/indirakalagara/envizi-scope3-ai-assit/blob/main/files/data/Account%20Setup%20and%20Data%20Load%20-%20AI%20Assist-set2.xlsx) to replicate the scenario
 
 2. Update the fields as required. The file content looks like
 
