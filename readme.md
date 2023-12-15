@@ -1,7 +1,7 @@
 
-# Using IBM Envizi's AI Assit NLP Capabilties to classify Scope 3 Spend-based transactions
+# Categorize Scope 3 spend-based transactions with the assistance of Envizi’s AI Assit.
 
-In this exercise, using AI assist features we will load spend-based data for the Category 1 Purchased goods for our Bank.
+This article will help you understand Natural Languagre Proessing (NLP) capabilites embed in IBM Envizi using AI Assist feature and how to leverage the same to classify the financial transactions to Scope 3 categories.
 
 ## Scope 3 introdcution
 
@@ -18,16 +18,16 @@ The GHG Protocol defines 15 categories of scope 3 emissions which include emissi
 There are 4 different calculation methods available for calculating Scope 3 emissios and depedends the availability of data for the reporting company. 
 
 ### Supplier-specific method
-   -  Collects product-level cradle-to-gate GHG inventory data from goods or services suppliers.
+Collects product-level cradle-to-gate GHG inventory data from goods or services suppliers.
 
 ### Hybrid method
-   - Uses a combination of supplier-specific activity data (where available) and secondary data to fill the gaps. 
+Uses a combination of supplier-specific activity data (where available) and secondary data to fill the gaps. 
 
 ### Average-data method 
-   – Estimates emissions for goods and services by collecting data on the mass (e.g., kilograms or pounds), or other relevant units of goods or services purchased and multiplying by the relevant secondary (e.g., industry average) emission factors (e.g., average emissions per unit of good or service).
+Estimates emissions for goods and services by collecting data on the mass (e.g., kilograms or pounds), or other relevant units of goods or services purchased and multiplying by the relevant secondary (e.g., industry average) emission factors (e.g., average emissions per unit of good or service).
 
 ### Spend-based method
-   – Estimates emissions for goods and services by collecting data on the economic value of goods and services purchased and multiplying it by relevant secondary (e.g., industry average) emission factors (e.g., average emissions per monetary value of goods).
+Estimates emissions for goods and services by collecting data on the economic value of goods and services purchased and multiplying it by relevant secondary (e.g., industry average) emission factors (e.g., average emissions per monetary value of goods).
 
 
 Following the Supplier-specific method helps company to calculate more accurate emissions, however availability of supplier specific data is a big challenge. Hence companies follow the calculation method based on the availability of the data and mostly start with spend-based calculation method and  slowly move towards the more accurate method (Supplier-specific method)  by engaging with suppliers.  
@@ -43,6 +43,8 @@ Using Natural Language Processing featuer of AI can help in identifying the cate
 
 The AI Assist feature of Envizi uses a natural language processing (NLP) engine to identify the Scope 3 category based on spend transaction descriptions  provided by the user. Envizi provides a template , following which user prepares and upload the spend-based data to AI Assit.
 AI Assist will pre-process the spend-based records and assign a mappting Account style.  The user will review the account styles allocated by AI, and then submit the file for loading directly, or modify the account style allocations manually and re-upload a modified file for loading.
+
+Currently AI Assit feature supports Scope 3 Category 1 Purchased Goods and Services and further work is going on to ehance the same to support other Scope 3 categories. 
 
 
 ## Download the AI Assit template
